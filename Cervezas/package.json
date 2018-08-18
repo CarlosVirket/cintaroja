@@ -1,0 +1,16 @@
+{
+  "name": "cervezas",
+  "version": "1.0.0",
+  "description": "Tipos de Cerveza",
+  "main": "modelos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Camargo",
+  "license": "NIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.8"
+  }
+}

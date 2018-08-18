@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Objetos</title>
+    </head>
+    <body>
+        < <p>
+            <label>Celsius</label>
+            <input id="inputCelsiud" type="number" placeholder="Celsius"
+            oninput="temperatureConverter(this.value)"
+            onchange="temperatureConverter(this.value)">
+          </p>
+          <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+          <fieldset>
+            <legend>Tablas</legend>
+            <label for="">¿Que tabla de multiplicar desea generar?:</label>
+            <input type="text" id="txtN1">
+            <br><br>
+            <input type="button" onclick="Generar();" value="Generar">
+    
+        </fieldset> 
+        
+        <script src="main.js"></script>
+    </body>
+</html> 
